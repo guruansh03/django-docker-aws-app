@@ -26,7 +26,7 @@ The system ensures **portability, scalability, and reproducibility**.
 ## 🌍 Live Demo
 
 ```
-http://<your-public-ip>:8000
+http://43.205.177.247:8000
 ```
 
 ---
