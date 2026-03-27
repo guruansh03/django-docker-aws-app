@@ -47,22 +47,6 @@ HTML Templates
 
 ---
 
-## 📸 Screenshots
-
-Add screenshots like this:
-
-```
-/screenshots/homepage.png
-/screenshots/app.png
-```
-
-Example:
-
-```
-![Homepage](screenshots/homepage.png)
-```
-
----
 
 ## 📁 Project Structure
 
@@ -86,7 +70,7 @@ project/
 ### 1. Clone Repository
 
 ```
-git clone https://github.com/<your-username>/<repo-name>.git
+git clone https://github.com/<guruansh03>/django-docker-aws-app.git
 cd <repo-name>
 ```
 
@@ -226,9 +210,6 @@ db.sqlite3
 
 ---
 
-## 📌 Resume Highlight
-
-> Deployed a containerized Django application on AWS EC2 using Docker, enabling scalable and reproducible cloud deployment.
 
 ---
 
