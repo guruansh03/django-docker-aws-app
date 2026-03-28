@@ -194,13 +194,91 @@ db.sqlite3
 
 ---
 
-## 🚀 Future Improvements
+## 🖥️ Run Using Docker Desktop (Local Testing)
 
-- Gunicorn (Production server)  
-- Nginx (Reverse proxy)  
-- Domain + HTTPS  
-- CI/CD pipeline (GitHub Actions)  
-- PostgreSQL database  
+You can also run this project locally using Docker Desktop without manual commands.
+
+### Steps:
+
+1. Install and open Docker Desktop  
+2. Ensure Docker Engine is running  
+
+---
+
+### Option 1: Using Docker Hub (Recommended)
+
+Pull the image:
+
+```
+docker pull guruansh03/django-app
+```
+
+Run the container:
+
+```
+docker run -d -p 8000:8000 guruansh03/django-app
+```
+
+Open in browser:
+
+```
+http://localhost:8000
+```
+
+---
+
+### Option 2: Using Docker Desktop UI
+
+1. Open Docker Desktop  
+2. Go to **Docker Hub** tab  
+3. Search: `guruansh03/django-app`  
+4. Click **Run**  
+
+---
+
+### Verify Container
+
+Run:
+
+```
+docker ps
+```
+
+You should see a running container with port mapping:
+
+```
+8000 -> 8000
+```
+
+---
+
+### Notes
+
+- If port 8000 is already in use:
+
+```
+docker run -d -p 8001:8000 guruansh03/django-app
+```
+
+Then open:
+
+```
+http://localhost:8001
+```
+
+- Make sure Docker Desktop shows **Engine Running**
+
+---
+
+### Why This Matters
+
+This ensures the project is:
+
+- Portable  
+- Reproducible  
+- Easy to run on any system  
+
+This is how evaluators or recruiters can test the project without setup.
 
 ---
 
